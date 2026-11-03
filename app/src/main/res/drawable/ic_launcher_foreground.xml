@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Simple volume icon in celeste azulino (#29B6F6) scaled to 68% for prominent and balanced display -->
+    <group
+        android:pivotX="58.75"
+        android:pivotY="54.0"
+        android:scaleX="0.68"
+        android:scaleY="0.68"
+        android:translateX="-4.75">
+        <!-- Speaker body and cone -->
+        <path
+            android:fillColor="#29B6F6"
+            android:pathData="M29,45 L38,45 L50,33 C51.1,32 53,32.8 53,34.4 L53,73.6 C53,75.2 51.1,76 50,75 L38,63 L29,63 C27.9,63 27,62.1 27,61 L27,47 C27,45.9 27.9,45 29,45 Z" />
+        
+        <!-- First sound wave -->
+        <path
+            android:strokeColor="#29B6F6"
+            android:strokeWidth="3.5"
+            android:strokeLineCap="round"
+            android:pathData="M61,43 C65.5,47.5 65.5,60.5 61,65" />
+            
+        <!-- Second sound wave -->
+        <path
+            android:strokeColor="#29B6F6"
+            android:strokeWidth="3.5"
+            android:strokeLineCap="round"
+            android:pathData="M70,35 C78,43 78,65 70,73" />
+            
+        <!-- Outer third sound wave -->
+        <path
+            android:strokeColor="#29B6F6"
+            android:strokeWidth="3.5"
+            android:strokeLineCap="round"
+            android:pathData="M79,27 C90.5,38.5 90.5,69.5 79,81" />
+    </group>
+</vector>
